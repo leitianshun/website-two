@@ -1,8 +1,8 @@
 <template>
-  <div class="main-box container">
-    <div class="box row col-xl-12">
-      <h5 style="width: 200px; line-height: 64px">{{ date }}</h5>
-      <div class="search">
+  <div class="main-box container" style="padding: 0">
+    <div class="box row col-xl-12 col-12">
+      <h5 style="width: 200px; line-height: 64px" class="col-12 col-xl-6">{{ date }}</h5>
+      <div class="search col-12 col-xl-6">
         <span>站内搜索</span>
         <div class="search-box">
           <svg
@@ -22,8 +22,8 @@
       </div>
     </div>
 
-    <div class="row col-xl-12">
-      <img src="/images/img-1.jpg" alt="" />
+    <div class="row col-xl-12 col-12" style="padding: 0; margin: 10px 0 0; width: 100%">
+      <img src="/images/img-1.jpg" class="img-fluid" alt="" />
     </div>
   </div>
 </template>
@@ -62,28 +62,30 @@
   .box {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    height: 72px;
+    // padding: 20px;
+    // height: 72px;
     margin: 0;
     padding: 0;
     .search {
       display: flex;
       align-items: center;
+      padding: 0;
       span {
         margin: 0 10px 0;
       }
       .search-box {
         border: 1px solid rgba(177, 153, 153, 0.5);
-        height: 35px;
-        padding: 0 5px;
+        display: flex;
+        // height: 35px;
+        // padding: 0 5px;
         // line-height: 35px;
         svg {
           color: gray;
-          margin: 0 0 4px;
+          margin: 5px 0 0;
         }
         input {
           border: none;
-          margin: 4px 0 0;
+          // margin: 4px 0 0;
           outline: none;
         }
       }
@@ -99,6 +101,7 @@
     }
   }
   // }
+
   // @media only screen and (max-width: 450px) {
   //   .contain {
   //     display: none;

@@ -1,27 +1,27 @@
 <template>
-  <div class="container" style="height: 650px; overflow: hidden">
-    <div class="news-box row justify-contnet-between">
-      <div class="left-box col-xl-8">
+  <div class="container">
+    <div class="news-box row justify-content-between">
+      <div class="left-box col-xl-7 col-12">
         <div class="img-box">
           <p>寿县电商中心入驻企业</p>
-          <img src="/images/sxnews.jpg" alt="" />
+          <img src="/images/sxnews.jpg" class="img-fluid" alt="" />
         </div>
-        <div class="news-title">
-          <div class="news-item">
-            <h6 class="text-truncate">这一份属于夏日的清脆甜dajskldjasljd;as</h6>
+        <div class="news-title row col-12 col-xl-12">
+          <div class="news-item col-12 col-xl-4">
+            <h6 class="text-truncate">这一份属于夏日的清脆甜</h6>
             <p>
               寿县经济和信息化局副局长邓传林、电商股股长鲁勇、“互联网+”产业发展服务中心副主任刘厚军、寿县电商公共服务中心负责人张磐等一行分别来到太湖县、怀宁县进行电商工作参观考察。
             </p>
             <div>2022-7-10</div>
           </div>
-          <div class="news-item">
-            <h6 class="text-truncate">这一份属于夏日的清脆甜dhajskdhkaj</h6>
+          <div class="news-item col-12 col-xl-4">
+            <h6 class="text-truncate">这一份属于夏日的清脆甜</h6>
             <p>
               寿县经济和信息化局副局长邓传林、电商股股长鲁勇、“互联网+”产业发展服务中心副主任刘厚军、寿县电商公共服务中心负责人张磐等一行分别来到太湖县、怀宁县进行电商工作参观考察。
             </p>
             <div>2022-7-10</div>
           </div>
-          <div class="news-item">
+          <div class="news-item col-12 col-xl-4">
             <h6 class="text-truncate">这一份属于夏日的清脆甜</h6>
             <p>
               寿县经济和信息化局副局长邓传林、电商股股长鲁勇、“互联网+”产业发展服务中心副主任刘厚军、寿县电商公共服务中心负责人张磐等一行分别来到太湖县、怀宁县进行电商工作参观考察。
@@ -31,8 +31,8 @@
         </div>
       </div>
 
-      <div class="right-box col-xl-4">
-        <div class="title">
+      <div class="right-box row col-xl-4 col-12">
+        <div class="title col-xl-12 col-12">
           <h1>
             <i>
               <svg
@@ -49,8 +49,9 @@
             热点关注
           </h1>
         </div>
-        <ul class="ul-box">
-          <li class="">
+
+        <ul class="ul-box col-xl-12 col-12">
+          <li class="col-xl-12 col-12">
             <h4 class="text-truncate">
               <i>
                 <svg
@@ -74,7 +75,7 @@
             </p>
           </li>
 
-          <li class="">
+          <li class="col-xl-12 col-12">
             <h4 class="text-truncate">
               <i>
                 <svg
@@ -98,7 +99,7 @@
             </p>
           </li>
 
-          <li class="">
+          <li class="col-xl-12">
             <h4 class="text-truncate">
               <i>
                 <svg
@@ -122,7 +123,7 @@
             </p>
           </li>
 
-          <li class="">
+          <li class="col-xl-12">
             <h4 class="text-truncate">
               <i>
                 <svg
@@ -146,7 +147,7 @@
             </p>
           </li>
 
-          <li class="">
+          <li class="col-xl-12">
             <h4 class="text-truncate">
               <i>
                 <svg
@@ -185,9 +186,12 @@
 <style lang="scss" scoped>
   .news-box {
     display: flex;
-    margin-top: 10px;
+    // margin-top: 10px;
+    margin: 20px 0 0;
     .left-box {
       // width: 760px;
+      margin: 0;
+      padding: 0;
       .img-box {
         width: 100%;
         cursor: pointer;
@@ -208,21 +212,22 @@
         }
         img {
           width: 100%;
-          height: 465px;
+          // height: 465px;
         }
       }
       .news-title {
         display: flex;
         padding: 20px 0 0;
         text-align: center;
+        margin: 0;
         .news-item {
-          width: 260px;
-          height: 130px;
+          // width: 260px;
+          // height: 130px;
           padding: 10px;
-          &:not(:last-child) {
-            border-right: 1px solid rgba(145, 140, 140, 0.3);
-          }
-          P {
+          // &:not(:last-child) {
+          //   border-right: 1px solid rgba(145, 140, 140, 0.3);
+          // }
+          p {
             margin: 0 0 15px;
             // word-break: break-all;
             overflow: hidden;
@@ -231,10 +236,10 @@
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
           }
-          h6 {
+          h4 {
             padding-left: 15px;
             font-weight: bold;
-            width: 220px;
+            // width: 220px;
           }
           &:hover {
             cursor: pointer;
@@ -244,7 +249,8 @@
       }
     }
     .right-box {
-      padding: 0 10px;
+      padding: 0;
+      margin: 0;
       .title {
         color: red;
         text-align: center;
@@ -255,8 +261,9 @@
         padding: 0;
         list-style: none;
         li {
+          padding: 0;
           h4 {
-            width: 410px;
+            // width: 410px;
           }
           p {
             overflow: hidden;

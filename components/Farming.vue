@@ -1,33 +1,34 @@
 <template>
   <div class="box container">
-    <div class="top-title">
+    <div class="top-title col-xl-12">
       <h2>农业品牌</h2>
       <p>查看更多...</p>
     </div>
     <!-- <div class="produce-box"> -->
-    <ul class="ul-box row">
-      <li class="col-12 col-xl-3">
+    <ul class="ul-box row justify-content-around">
+      <li class="col-12 col-xl-2">
         <img src="/images/sxyou.png" alt="" />
       </li>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-2">
         <img src="/images/sxyou.png" alt="" />
       </li>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-2">
         <img src="/images/sxyou.png" alt="" />
       </li>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-2">
         <img src="/images/sxyou.png" alt="" />
       </li>
-      <li class="col-12 col-xl-3">
+      <div class="w-100"></div>
+      <li class="col-12 col-xl-2">
         <img src="/images/sxmiantiao.png" alt="" />
       </li>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-2">
         <img src="/images/sxmiantiao.png" alt="" />
       </li>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-2">
         <img src="/images/sxmiantiao.png" alt="" />
       </li>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-2">
         <img src="/images/sxmiantiao.png" alt="" />
       </li>
     </ul>

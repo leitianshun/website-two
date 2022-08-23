@@ -2,8 +2,12 @@
   <div>
     <div style="" class="zx-box container">
       <!-- <img src="/images/zximg-1.jpg" alt="" /> -->
-      <div class="bg-img row col-12 col-xl-12"></div>
-      <!-- <img class="bg-img row col-12 col-xl-12" src="/images/zximg-1.jpg" alt="" /> -->
+      <!-- <div class="bg-img img-fluid row col-12 col-xl-12"></div> -->
+      <img
+        class="row col-12 col-xl-12 img-fluid"
+        style="width: 100%; margin: 0; padding: 0"
+        src="/images/zximg-1.jpg"
+        alt="" />
 
       <div class="main-box row justify-content-between">
         <div class="left-box col-12 col-xl-3">
@@ -392,7 +396,7 @@
     }
     .main-box {
       display: flex;
-      margin-top: 50px;
+      margin: 50px 0 0;
       // padding: 0 50px;
       .left-box {
         width: 247px;

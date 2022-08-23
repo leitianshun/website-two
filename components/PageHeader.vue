@@ -5,7 +5,7 @@
       <img src="/images/epsz.png" alt="" />
       <h3>
         寿县电子商务公共服务中心
-        <h6 class="colorToggle">Shouxian Rural E-Commerce Public Service Center</h6>
+        <h6 style="margin-top: 10px" class="colorToggle">Shouxian Rural E-Commerce Public Service Center</h6>
       </h3>
       <!-- <img src="/images/sx.jpg" alt="" /> -->
     </div>
@@ -91,9 +91,6 @@
             <li class="nav-item" @click="active = false">
               <!-- <nuxt-link :to="{ path: '/news', query: { pageNum: 1 } }" class="nav-link">行业新闻</nuxt-link> -->
               <nuxt-link active-class="active" to="/server" class="nav-link">电商服务</nuxt-link>
-            </li>
-            <li class="nav-item" @click="active = false">
-              <nuxt-link active-class="active" to="analyse" class="nav-link">分析统计</nuxt-link>
             </li>
             <li class="nav-item" @click="active = false">
               <nuxt-link active-class="active" to="analyse" class="nav-link">分析统计</nuxt-link>

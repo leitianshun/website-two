@@ -259,13 +259,16 @@
     }
     .ul-box {
       padding: 0;
+      margin: 0;
       display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
+      // justify-content: space-around;
+      // flex-wrap: wrap;
+
       li {
         // margin: 0 10px;
-        cursor: pointer;
         width: 275px;
+
+        cursor: pointer;
         box-shadow: 0 0 2px rgba(41, 40, 40, 0.9);
         position: relative;
         margin-bottom: 30px;
